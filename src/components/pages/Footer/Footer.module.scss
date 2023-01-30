@@ -1,0 +1,111 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: radial-gradient(56.19% 168.11% at 28.98% -60.9%, #0496C8 0%, #023059 100%);
+    padding: 40px 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1550px;
+    margin: 0 auto;
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 100%;
+    & img {
+        width: 150%;
+        height: 150%;
+        position: relative;
+        top: -30px;
+        left: -24px;
+    }
+    padding-bottom: 0px;
+}
+
+.links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    min-height: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    & .title {
+        color: white;
+    }
+    & a {
+        width: 50%;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.5px;
+        height: 80%;
+        background-color: gray;
+        right: 20px;
+    }
+}
+.list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    & a {
+        margin-right: 10px;
+        margin-bottom: 20px;
+        width: 200px;
+
+    }
+    & .title {
+        color: white;
+    }
+
+}
+.requisites {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    & .title {
+        width: 100%;
+        padding-left: 70px;
+    }
+    & .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        & .left {
+            max-width: 200px;
+        }
+        & .right {
+            margin-top: 18px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+
+.link {
+    color: gray;
+    font-weight: 600;
+    &:hover, &:active {
+        color: #08e8de;
+    }
+}

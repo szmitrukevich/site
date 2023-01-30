@@ -1,0 +1,24 @@
+@import '../../assets/fonts/fonts.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 140%/1.4 "Roboto", sans-serif;
+}
+.wrapper {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #EBEEF3;
+    min-height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    color: gray;
+    &:hover, &:active {
+        color: #08e8de;
+    }
+}
