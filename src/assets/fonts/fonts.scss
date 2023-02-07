@@ -5,3 +5,25 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Bold'), url('./Montserrat-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Thin'), url('./Montserrat-Thin.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}

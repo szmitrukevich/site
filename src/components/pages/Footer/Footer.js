@@ -1,17 +1,13 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 import classes from './Footer.module.scss'
-import HeaderLink from '../../ui/HeaderLink'
+import FooterLink from '../../ui/Link'
 import logo from '../../../assets/logos/logo.svg'
 
 const Footer = () => {
   const linkList = [
     {
       link: '/',
-      text: 'На главную',
-    },
-    {
-      link: '/about',
       text: 'О компании',
     },
     {
@@ -19,7 +15,7 @@ const Footer = () => {
       text: 'Линейка поставок',
     },
     {
-      link: '/contract',
+      link: '/contract-production',
       text: 'Контрактное производство',
     },
     {
@@ -33,12 +29,16 @@ const Footer = () => {
   ]
 
   const createLink = (item) => (
-    <Link
+    <NavLink
       to={item.link}
       key={item.text}
+      style={({ isActive }) => ({ color: isActive ? '#809aeb' : 'white' })}
     >
-      <HeaderLink text={item.text} />
-    </Link>
+      <FooterLink
+        text={item.text}
+        header={false}
+      />
+    </NavLink>
   )
   const links = linkList.map((item) => createLink(item))
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
       <div className={classes.wrapper}>
         <div className={`${classes.container} ${classes.top}`}>
           <div className={classes.logoWrapper}>
-            <Link
+            <NavLink
               to="/"
               className="logo"
             >
@@ -57,7 +57,7 @@ const Footer = () => {
                   alt="logo"
                 />
               </div>
-            </Link>
+            </NavLink>
           </div>
           <div className={classes.links}>
             <div className={classes.title}>

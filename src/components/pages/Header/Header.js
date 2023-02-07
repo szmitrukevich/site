@@ -1,19 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import PropTypes from 'prop-types'
 import { NavLink, Outlet } from 'react-router-dom'
-import HeaderLink from '../../ui/HeaderLink'
+import HeaderLink from '../../ui/Link'
 import classes from './Header.module.scss'
 
 // const setActive = ({ isActive }) => (isActive ? 'activeLink' : '')
 
 const Header = () => {
+  const [isPopupOpened, setPopup] = useState(false)
   const linkList = [
     {
       link: '/',
-      text: 'На главную',
-    },
-    {
-      link: '/about',
       text: 'О компании',
     },
     {
@@ -21,7 +18,7 @@ const Header = () => {
       text: 'Линейка поставок',
     },
     {
-      link: '/contract',
+      link: '/contract-production',
       text: 'Контрактное производство',
     },
     {
@@ -38,9 +35,13 @@ const Header = () => {
     <NavLink
       to={item.link}
       key={item.text}
-      style={({ isActive }) => ({ color: isActive ? '#08e8de' : 'gray' })}
+      style={({ isActive }) => ({ color: isActive ? '#809aeb' : '#023059' })}
+      onClick={() => setPopup(false)}
     >
-      <HeaderLink text={item.text} />
+      <HeaderLink
+        text={item.text}
+        header
+      />
     </NavLink>
   )
   const links = linkList.map((item) => createLink(item))
@@ -58,6 +59,16 @@ const Header = () => {
             <a href="tel:+79117467069">+7 (911) 746-70-69</a>
           </div>
           <div className={classes.container}>{links}</div>
+          <button
+            type="button"
+            className={isPopupOpened ? classes.btnOpened : classes.popupBtn}
+            onClick={() => setPopup(!isPopupOpened)}
+          >
+            <span />
+          </button>
+          <div className={isPopupOpened ? `${classes.popup} ${classes.opened}` : `${classes.popup} ${classes.closed}`}>
+            {links}
+          </div>
         </div>
       </div>
       <Outlet />

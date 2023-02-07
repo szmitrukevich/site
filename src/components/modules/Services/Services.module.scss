@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #ebeef3;
+    margin-top: 40px
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.content {
+    width: 40%;
+}
+.article {
+    margin-bottom: 15px;
+}
+.contentImg {
+    background-image: url('../../../assets/background/about.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    width: 45%;
+}

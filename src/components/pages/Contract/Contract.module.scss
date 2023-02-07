@@ -1,0 +1,70 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(56.19% 168.11% at 28.98% -60.9%, #0496C8 0%, #023059 100%);
+    
+}
+.about {
+    max-width: 60%;
+    margin: 50px auto;
+    & h1 {
+        text-align: center;
+        color: white;
+    }
+}
+.image {
+    max-width: 1540px;
+    background-image: url('./../../../assets/background/pcb.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+.content {
+    color: white;
+    margin-top: 40px;
+}
+
+.services {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lists {
+    max-width: 60%;
+}
+
+.list {
+    font-weight: 600;
+    color:#023059;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.item {
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    margin-top: 10px;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: -25px;
+        height: 10px;
+        width: 10px;
+        background-color: #023059;
+        border-radius: 100%;
+    }
+}
+

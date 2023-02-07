@@ -1,12 +1,12 @@
 @import '../../assets/fonts/fonts.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    font: 140%/1.4 "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
-    font-family: 'Inter', sans-serif;
     position: relative;
     font-size: 14px;
     line-height: 22px;
@@ -15,10 +15,16 @@ body {
 }
 
 a {
-    color: black;
     text-decoration: none;
-    color: gray;
+    color: #023059;
     &:hover, &:active {
-        color: #08e8de;
+        color: #809aeb;
     }
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    padding: 0;
+    transition-duration: 0ms;
 }

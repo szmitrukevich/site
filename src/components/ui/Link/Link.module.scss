@@ -1,8 +1,7 @@
 
-.link {
-    color: gray;
+.header, .footer {
     font-weight: 600;
     &:hover, &:active {
-        color: #08e8de;
+        color: #809aeb;
     }
 }

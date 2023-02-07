@@ -1,9 +1,9 @@
 import React from 'react'
 
 import classes from './Main.module.scss'
-import Contacts from '../../ui/Contacts'
-import Advantages from '../../ui/Advantages'
-import Services from '../../ui/Services'
+import Contacts from '../../modules/Contacts'
+import Advantages from '../../modules/Advantages'
+import Services from '../../modules/Services'
 
 const Main = () => {
   return (
