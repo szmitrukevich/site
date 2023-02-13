@@ -5,8 +5,8 @@ import classes from './NotFoundPage.module.scss'
 const NotFoundPage = () => {
   return (
     <div className={classes.wrapper}>
-      Page not found :(
-      <Link to="/">Go back to main page</Link>
+      Упс, страница не найдена :(
+      <Link to="/">Вернуться на главную страницу</Link>
     </div>
   )
 }

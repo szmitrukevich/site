@@ -7,6 +7,7 @@ import Contacts from '../modules/Contacts'
 import Header from '../pages/Header'
 import Footer from '../pages/Footer'
 import Catalog from '../pages/Catalog'
+import SingleProduct from '../pages/SingleProduct'
 import Contract from '../pages/Contract'
 import NotFoundPage from '../pages/NotFoundPage'
 
@@ -21,6 +22,10 @@ const App = () => (
       <Route
         path="/catalog"
         element={<Catalog />}
+      />
+      <Route
+        path="/catalog/:id"
+        element={<SingleProduct />}
       />
       <Route
         path="/contract-production"

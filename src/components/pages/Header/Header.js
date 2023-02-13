@@ -21,10 +21,10 @@ const Header = () => {
       link: '/contract-production',
       text: 'Контрактное производство',
     },
-    {
-      link: '/news',
-      text: 'Новости',
-    },
+    // {
+    //   link: '/news',
+    //   text: 'Новости',
+    // },
     {
       link: '/contacts',
       text: 'Контакты',

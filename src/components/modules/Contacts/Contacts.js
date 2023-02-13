@@ -14,18 +14,27 @@ const Contacts = () => {
         </div>
         <div className={classes.phone}>
           <div className={classes.title}>Телефон:</div>
-          <div className={classes.info}>+7 (911) 7467069</div>
+          <div className={classes.info}>
+            <a href="tel:+79117467069">+7 (911) 7467069</a>
+          </div>
+        </div>
+        <div className={classes.email}>
+          <div className={classes.title}>Электронная почта:</div>
+          <div className={classes.info}>
+            <a href="mailto:sergey@elc-tr.ru">sergey@elc-tr.ru</a>
+          </div>
         </div>
       </div>
       <div className={classes.map}>
         <iframe
           title="map"
+          className={classes.iframe}
           src={
             // eslint-disable-next-line max-len
             'https://yandex.ru/map-widget/v1/?um=constructor%3A7f8dc1db917063c61a3377d8383b86d4773a71524006fd8874f036d283cb353b&amp;source=constructor'
           }
-          width="700"
-          height="400"
+          // width="700"
+          // height="400"
           frameBorder="0"
         />
       </div>
