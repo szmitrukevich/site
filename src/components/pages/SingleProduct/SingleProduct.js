@@ -1,8 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-// import PropTypes from 'prop-types'
 import classes from './SingleProduct.module.scss'
-import pairui from '../../../assets/logos/dist/pairui.png'
 
 const SingleProduct = () => {
   const { id } = useParams()

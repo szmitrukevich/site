@@ -12,6 +12,9 @@
     width: 90%;
     max-width: 1550px;
     margin: 0 auto;
+    @media (max-width: 400px) {
+        flex-direction: column;
+    }
     & > .logoWrapper {
         @media (max-width: 800px) {
             display: none;
@@ -58,6 +61,10 @@
     @media (max-width: 800px) {
         margin-left: 50px;
     }
+    @media (max-width: 400px) {
+        margin-left: 10px;
+        width: 100%;
+    }
     & .title {
         color: white;
     }
@@ -71,6 +78,9 @@
         height: 80%;
         background-color: gray;
         right: 20px;
+        @media (max-width: 400px) {
+            background-color: transparent;
+        }
     }
 }
 .list {
@@ -98,6 +108,10 @@
     flex-direction: column;
     justify-content: center;
     color: white;
+    @media (max-width: 400px) {
+        width: 100%;
+        margin-bottom: 40px;
+    }
     & .title {
         width: 100%;
         padding-left: 70px;
