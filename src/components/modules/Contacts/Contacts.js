@@ -9,7 +9,8 @@ const Contacts = () => {
         <div className={classes.address}>
           <div className={classes.title}>Адрес:</div>
           <div className={classes.info}>
-            195196, Российская Федерация, г. Санкт-Петербург, Варшавская ул., 9, корп. 1
+            196006, г.Санкт-Петербург, вн. тер.г муниципальный округ Московская застава, ул. Коли Томчака, д.28, литера
+            Ц, помещ./офис 1-Н/413
           </div>
         </div>
         <div className={classes.phone}>
@@ -21,7 +22,7 @@ const Contacts = () => {
         <div className={classes.email}>
           <div className={classes.title}>Электронная почта:</div>
           <div className={classes.info}>
-            <a href="mailto:sergey@elc-tr.ru">sergey@elc-tr.ru</a>
+            <a href="mailto:sales@elctrade.ru">sales@elctrade.ru</a>
           </div>
         </div>
       </div>
@@ -31,7 +32,7 @@ const Contacts = () => {
           className={classes.iframe}
           src={
             // eslint-disable-next-line max-len
-            'https://yandex.ru/map-widget/v1/?um=constructor%3A7f8dc1db917063c61a3377d8383b86d4773a71524006fd8874f036d283cb353b&amp;source=constructor'
+            'https://yandex.ru/map-widget/v1/?um=constructor%3A16733964c780b257b22524f0f1728605ec84fedb954ae26b303d82d0084e5ea8&amp;source=constructor'
           }
           // width="700"
           // height="400"

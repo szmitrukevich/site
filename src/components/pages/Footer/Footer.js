@@ -72,34 +72,37 @@ const Footer = () => {
             <div className={classes.info}>
               <div className={classes.left}>
                 <h3>Юридический адрес:</h3>
-                <div>196128, Российская Федерация, г. Санкт-Петербург, Варшавская ул., 9, корп. 1</div>
+                <div>
+                  196006, г.Санкт-Петербург, вн. тер.г муниципальный округ Московская застава, ул. Коли Томчака, д.28,
+                  литера Ц, помещ./офис 1-Н/413
+                </div>
               </div>
 
               <div className={classes.right}>
                 <span>
                   <b>ИНН/КПП</b>
                 </span>
-                <span> 7714546180/773231001</span>
+                <span> 7810971726/781001001</span>
                 <span>
                   <b>Рассчетный счет</b>
                 </span>
-                <span> 40723810938040024665</span>
+                <span> 40702810510001315549</span>
                 <span>
                   <b>Корр.счет</b>
                 </span>
-                <span> 30101814500000000225</span>
+                <span> 30101810145250000974</span>
                 <span>
                   <b>БИК </b>
-                  044534225
+                  044525974
                 </span>
                 <span>
                   <b>OГРН </b>
-                  457739381812
+                  1237800019797
                 </span>
-                <span>
+                {/* <span>
                   <b>ОКТМО </b>
                   45592700
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -107,7 +110,7 @@ const Footer = () => {
         <div className={`${classes.container} ${classes.bottom}`}>
           <div className={classes.shortInfo}>
             <div>© ООО ЭлСи-Трейд 2022</div>
-            <a href="mailto:sergey@elc-tr.ru">sergey@elc-tr.ru</a>
+            <a href="mailto:sales@elctrade.ru">sales@elctrade.ru</a>
           </div>
         </div>
       </div>
