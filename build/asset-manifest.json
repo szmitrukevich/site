@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdfa06c2.css",
+    "main.js": "/static/js/main.13984c25.js",
+    "static/media/bg.png": "/static/media/bg.9447e1d7cb89ee59de2e.png",
+    "static/media/bg2.png": "/static/media/bg2.4b3e22618f26132009f7.png",
+    "static/media/about.jpeg": "/static/media/about.4c8921ed8318a8fc3dff.jpeg",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.0915f0a8c3367a6d05ec.ttf",
+    "static/media/Montserrat-Thin.ttf": "/static/media/Montserrat-Thin.53139ad3e8e638609181.ttf",
+    "static/media/pcb.jpg": "/static/media/pcb.83ca42915ccabf823b09.jpg",
+    "static/media/yetnorson.png": "/static/media/yetnorson.24f8ff41e544e8d4b5c4.png",
+    "static/media/email.png": "/static/media/email.1431c23066f7ef2fd173.png",
+    "static/media/locosys.png": "/static/media/locosys.427e4162d367c28b1861.png",
+    "static/media/phone.png": "/static/media/phone.fb244201058d6b0c101c.png",
+    "static/media/feasycom.png": "/static/media/feasycom.6c81d065a9ecda340b08.png",
+    "static/media/map.png": "/static/media/map.504c8f54711786b3c433.png",
+    "static/media/logo.svg": "/static/media/logo.93c44e3d1b8ea8c00bdd84c719c99650.svg",
+    "index.html": "/index.html",
+    "main.fdfa06c2.css.map": "/static/css/main.fdfa06c2.css.map",
+    "main.13984c25.js.map": "/static/js/main.13984c25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdfa06c2.css",
+    "static/js/main.13984c25.js"
+  ]
+}
