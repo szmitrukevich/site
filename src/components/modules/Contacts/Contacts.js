@@ -16,7 +16,7 @@ const Contacts = () => {
         <div className={classes.phone}>
           <div className={classes.title}>Телефон:</div>
           <div className={classes.info}>
-            <a href="tel:+79117467069">+7 (911) 7467069</a>
+            <a href="tel:+79818907580">+7 (981) 890-75-80</a>
           </div>
         </div>
         <div className={classes.email}>

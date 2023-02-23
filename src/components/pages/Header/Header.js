@@ -56,7 +56,7 @@ const Header = () => {
             <div className={classes.logo} />
           </NavLink>
           <div className={classes.phone}>
-            <a href="tel:+79117467069">+7 (911) 746-70-69</a>
+            <a href="tel:+79818907580">+7 (981) 890-75-80</a>
           </div>
           <div className={classes.container}>{links}</div>
           <button
